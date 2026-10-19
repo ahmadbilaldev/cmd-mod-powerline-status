@@ -1,0 +1,32 @@
+{
+	"name": "cmd-mod-powerline-status",
+	"version": "0.0.1",
+	"description": "A powerline-style status row for Command Code: model, effort, path, git, context, and tokens",
+	"type": "module",
+	"license": "MIT",
+	"author": "Ahmad Bilal",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahmadbilaldev/cmd-mod-powerline-status.git"
+	},
+	"homepage": "https://github.com/ahmadbilaldev/cmd-mod-powerline-status#readme",
+	"bugs": {
+		"url": "https://github.com/ahmadbilaldev/cmd-mod-powerline-status/issues"
+	},
+	"keywords": [
+		"cmd-mod",
+		"statusline",
+		"powerline",
+		"ui"
+	],
+	"commandcode": {
+		"mods": [
+			"./index.ts"
+		]
+	},
+	"files": [
+		"index.ts",
+		"README.md",
+		"LICENSE"
+	]
+}
